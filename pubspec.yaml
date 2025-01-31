@@ -1,0 +1,12 @@
+name: uaspemmob
+description: A simple community app for photographers
+
+
+environment:
+  sdk: "^3.5.0"  # Tambahkan SDK constraint ini
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4  # Pastikan versi sesuai dengan yang diperlukan
+
