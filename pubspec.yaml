@@ -1,12 +1,22 @@
 name: uaspemmob
 description: A simple community app for photographers
 
-
 environment:
-  sdk: "^3.5.0"  # Tambahkan SDK constraint ini
+  sdk: "^3.5.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.4  # Pastikan versi sesuai dengan yang diperlukan
+  http: ^0.13.4
+  firebase_core: ^2.10.0  # Untuk inisialisasi Firebase
+  firebase_auth: ^4.0.0  # Firebase Authentication (Opsional, jika menggunakan autentikasi)
+  cloud_firestore: ^4.0.0  # Firebase Firestore (Opsional, jika menggunakan Firestore)
+  firebase_database: ^10.0.0  # Firebase Realtime Database (Opsional, jika menggunakan Realtime DB)
+  firebase_storage: ^10.0.0  # Firebase Storage (Opsional, jika menggunakan Storage)
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
